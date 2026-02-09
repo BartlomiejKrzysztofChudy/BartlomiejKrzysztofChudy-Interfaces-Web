@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Bartłomiej Chudy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input type="checkbox" id="themeToggle" class="theme-toggle-input">
+<label for="themeToggle" class="theme-btn">
+  <span class="theme-icon theme-icon--light">🌙</span>
+  <span class="theme-icon theme-icon--dark">☀️</span>
+  <span class="theme-text theme-text--light">Modo oscuro</span>
+  <span class="theme-text theme-text--dark">Modo claro</span>
+</label>
+
+<nav class="navbar">
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#sobremi">Sobre mí</a></li>
+<li><a href="#formacion">Formación</a></li>
+<li><a href="#skills">Habilidades</a></li>
+<li><a href="#proyectos">Proyectos</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+
+<header id="inicio" class="hero">
+  <div class="hero-container">
+
+    <div class="hero-photo">
+      <div class="photo-wrapper">
+        <img src="assets/prueba.jpg" alt="Foto de Bartlomiej">
+      </div>
+    </div>
+
+    <div class="hero-text">
+      <h1>Bartlomiej Krzysztof Chudy</h1>
+      <h2>Desarrollador Web Junior</h2>
+
+      <p>
+        Estudiante de DAW con experiencia práctica en Java, React, JavaScript, APIs REST y bases de datos. 
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#proyectos" class="btn">Ver proyectos</a>
+        <a href="#contacto" class="btn secondary">Contacto</a>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+
+<section id="sobremi" class="section">
+<h2>Sobre mí</h2>
+
+<p>
+Soy estudiante de segundo curso de Desarrollo de Aplicaciones Web (DAW) con experiencia en la creación de 
+proyectos web completos, abarcando desde la planificación y el diseño de interfaces hasta el desarrollo e 
+implementación funcional.
+</p>
+
+<p>
+He trabajado con tecnologías como Java, JavaScript, React, MySQL y MongoDB, lo que me ha permitido 
+comprender cómo interactúan el frontend, el backend y las bases de datos dentro de una aplicación. Disfruto 
+analizando problemas técnicos y transformándolos en soluciones claras, útiles y fáciles de mantener para el 
+usuario final.
+</p>
+
+<p>
+Me caracterizo por ser responsable, organizado y colaborativo. Trabajo apoyándome en buenas prácticas de 
+desarrollo y en el diseño previo con Figma para garantizar coherencia visual, orden en el proyecto y una 
+mejor experiencia de usuario. También he realizado despliegues en plataformas como Vercel y Render.
+</p>
+</section>
+
+<section id="formacion" class="section">
+<h2>Formación</h2>
+
+<div class="card">
+<h3>DAW – ADA ITS</h3>
+<p>2024 – Actualidad</p>
+<p>Programación, bases de datos, desarrollo web, Diseño y arquitecturas cliente-servidor.</p>
+</div>
+
+<div class="card">
+<h3>Grado Medio Microinformática</h3>
+<p>Obicex, 2021–2024</p>
+<p>Redes, sistemas y mantenimiento de equipos.</p>
+</div>
+
+<div class="card">
+<h3>Certificación IA – BIG School</h3>
+<p>2025</p>
+<p>Introducción al desarrollo con Inteligencia Artificial.</p>
+</div>
+</section>
+
+<section id="skills" class="section">
+<h2>Habilidades técnicas</h2>
+
+<div class="skills-grid">
+
+<div class="skill-box">
+<h3>Lenguajes</h3>
+<ul>
+<li>Java</li>
+<li>C#</li>
+<li>JavaScript</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<h3>Web</h3>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>React</li>
+<li>Node.js + Express</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<h3>Bases de datos</h3>
+<ul>
+<li>MySQL</li>
+<li>MongoDB</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<h3>APIs</h3>
+<ul>
+<li>Consumo de APIs REST</li>
+<li>Creación de APIs</li>
+<li>Manejo de JSON</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<h3>Herramientas</h3>
+<ul>
+<li>Git / GitHub</li>
+<li>Jira</li>
+<li>Trello</li>
+<li>Figma</li>
+<li>Docker</li>
+<li>n8n</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="proyectos" class="section">
+<h2>Proyectos destacados</h2>
+<p class="projects-subtitle">Explora mis proyectos más recientes. Haz clic en las tarjetas para ver más detalles.</p>
+
+<div class="carousel-container">
+  <div class="carousel-track">
+    
+    <!-- Proyecto 1: DocGenerator AI -->
+    <div class="flip-card">
+      <input type="checkbox" id="card1" class="flip-checkbox">
+      <label for="card1" class="flip-card-inner">
+        <!-- FRENTE -->
+        <div class="flip-card-front">
+          <div class="project-icon project-icon--docgen">
+            <img src="assets/DocGeneratorIA.png" alt="DocGenerator AI">
+          </div>
+          <h3>DocGenerator AI</h3>
+          <p class="project-brief">Generador automático de documentación técnica para proyectos Java con IA</p>
+          <div class="tech-badges">
+            <span class="badge">Node.js</span>
+            <span class="badge">React</span>
+            <span class="badge">n8n</span>
+            <span class="badge">Docker</span>
+          </div>
+          <div class="flip-hint">👆 Click para ver detalles</div>
+        </div>
+        
+        <!-- REVERSO -->
+        <div class="flip-card-back">
+          <h3>DocGenerator AI</h3>
+          <ul class="project-features">
+            <li>✅ Análisis automático de código Java</li>
+            <li>✅ Generación de diagramas UML</li>
+            <li>✅ Exportación a Markdown y PDF</li>
+            <li>✅ Orquestación con n8n + LM Studio</li>
+            <li>✅ Interfaz React con historial</li>
+          </ul>
+          <div class="project-tech-detail">
+            <strong>Stack:</strong> Express, PlantUML, Docker Compose
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Proyecto 2: MindCore Chatbot -->
+    <div class="flip-card">
+      <input type="checkbox" id="card2" class="flip-checkbox">
+      <label for="card2" class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="project-icon project-icon--mindcore">
+            <img src="assets/IconoChatBot.png" alt="MindCore Chatbot">
+          </div>
+          <h3>MindCore Chatbot</h3>
+          <p class="project-brief">Asistente conversacional con IA local y búsqueda de Pokémon vía API</p>
+          <div class="tech-badges">
+            <span class="badge">React</span>
+            <span class="badge">Vite</span>
+            <span class="badge">PokeAPI</span>
+            <span class="badge">IA Local</span>
+          </div>
+          <div class="flip-hint">👆 Click para ver detalles</div>
+        </div>
+        
+        <!-- REVERSO -->
+        <div class="flip-card-back">
+          <h3>MindCore Chatbot</h3>
+          <ul class="project-features">
+            <li>✅ Interfaz de chat interactiva</li>
+            <li>✅ Búsqueda de Pokémon por nombre/ID</li>
+            <li>✅ Respuestas con datos estructurados</li>
+            <li>✅ Animaciones y estados de carga</li>
+            <li>✅ Arquitectura modular MVVM</li>
+          </ul>
+          <div class="project-tech-detail">
+            <strong>Stack:</strong> React Hooks, Fetch API, CSS Modules, Component-Based Architecture
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Proyecto 3: F1 MAUI App -->
+    <div class="flip-card">
+      <input type="checkbox" id="card3" class="flip-checkbox">
+      <label for="card3" class="flip-card-inner">
+        <!-- FRENTE -->
+        <div class="flip-card-front">
+          <div class="project-icon">
+            <img src="assets/IconoF1.png" alt="F1 MAUI App">
+          </div>
+          <h3>F1 MAUI App</h3>
+          <p class="project-brief">Aplicación multiplataforma de Fórmula 1 con API desplegada en Azure</p>
+          <div class="tech-badges">
+            <span class="badge">.NET MAUI</span>
+            <span class="badge">C#</span>
+            <span class="badge">Azure</span>
+            <span class="badge">REST API</span>
+          </div>
+          <div class="flip-hint">👆 Click para ver detalles</div>
+        </div>
+        
+        <!-- REVERSO -->
+        <div class="flip-card-back">
+          <h3>F1 MAUI App</h3>
+          <ul class="project-features">
+            <li>✅ Multiplataforma (Android, iOS, Windows)</li>
+            <li>✅ API propia en Azure App Service</li>
+            <li>✅ Calendario de carreras en tiempo real</li>
+            <li>✅ Rankings de pilotos y escuderías</li>
+            <li>✅ Arquitectura cliente-servidor desacoplada</li>
+          </ul>
+          <div class="project-tech-detail">
+            <strong>Stack:</strong> .NET MAUI, ASP.NET Core, XAML, Azure (Spain Central)
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Proyecto 4: Java + MySQL CRUD -->
+    <div class="flip-card">
+      <input type="checkbox" id="card4" class="flip-checkbox">
+      <label for="card4" class="flip-card-inner">
+        <!-- FRENTE -->
+        <div class="flip-card-front">
+          <div class="project-icon">♨️</div>
+          <h3>Java + MySQL CRUD</h3>
+          <p class="project-brief">Aplicación de escritorio con JFrame y operaciones CRUD completas</p>
+          <div class="tech-badges">
+            <span class="badge">Java</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">JFrame</span>
+            <span class="badge">JDBC</span>
+          </div>
+          <div class="flip-hint">👆 Click para ver detalles</div>
+        </div>
+        
+        <!-- REVERSO -->
+        <div class="flip-card-back">
+          <h3>Java + MySQL CRUD</h3>
+          <ul class="project-features">
+            <li>✅ Interfaz gráfica con Swing/JFrame</li>
+            <li>✅ Conexión JDBC a MySQL</li>
+            <li>✅ Create, Read, Update, Delete</li>
+            <li>✅ Validación de datos de entrada</li>
+            <li>✅ Gestión de excepciones SQL</li>
+          </ul>
+          <div class="project-tech-detail">
+            <strong>Stack:</strong> Java SE, MySQL, JDBC Driver, Swing UI Components
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- DUPLICADOS PARA CARRUSEL INFINITO -->
+    <div class="flip-card">
+      <input type="checkbox" id="card5" class="flip-checkbox">
+      <label for="card5" class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="project-icon project-icon--docgen">
+            <img src="assets/DocGeneratorIA.png" alt="DocGenerator AI">
+          </div>
+          <h3>DocGenerator AI</h3>
+          <p class="project-brief">Generador automático de documentación técnica para proyectos Java con IA</p>
+          <div class="tech-badges">
+            <span class="badge">Node.js</span>
+            <span class="badge">React</span>
+            <span class="badge">n8n</span>
+            <span class="badge">Docker</span>
+          </div>
+          <div class="flip-hint">👆 Click para ver detalles</div>
+        </div>
+        <div class="flip-card-back">
+          <h3>DocGenerator AI</h3>
+          <ul class="project-features">
+            <li>✅ Análisis automático de código Java</li>
+            <li>✅ Generación de diagramas UML</li>
+            <li>✅ Exportación a Markdown y PDF</li>
+            <li>✅ Orquestación con n8n + LM Studio</li>
+            <li>✅ Interfaz React con historial</li>
+          </ul>
+          <div class="project-tech-detail">
+            <strong>Stack:</strong> Express, PlantUML, Pandoc, WeasyPrint, Docker Compose
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="flip-card">
+      <input type="checkbox" id="card6" class="flip-checkbox">
+      <label for="card6" class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="project-icon">
+            <img src="assets/IconoChatBot.png" alt="MindCore Chatbot">
+          </div>
+          <h3>MindCore Chatbot</h3>
+          <p class="project-brief">Asistente conversacional con IA local y búsqueda de Pokémon vía API</p>
+          <div class="tech-badges">
+            <span class="badge">React</span>
+            <span class="badge">Vite</span>
+            <span class="badge">PokeAPI</span>
+            <span class="badge">IA Local</span>
+          </div>
+          <div class="flip-hint">👆 Click para ver detalles</div>
+        </div>
+        <div class="flip-card-back">
+          <h3>MindCore Chatbot</h3>
+          <ul class="project-features">
+            <li>✅ Interfaz de chat interactiva</li>
+            <li>✅ Búsqueda de Pokémon por nombre/ID</li>
+            <li>✅ Respuestas con datos estructurados</li>
+            <li>✅ Animaciones y estados de carga</li>
+            <li>✅ Arquitectura modular MVVM</li>
+          </ul>
+          <div class="project-tech-detail">
+            <strong>Stack:</strong> React Hooks, Fetch API, CSS Modules, Component-Based Architecture
+          </div>
+        </div>
+      </label>
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+<section id="contacto" class="section contact">
+<h2>Contacto</h2>
+<p>¿Tienes un proyecto o una oportunidad? Escríbeme y respondo lo antes posible.</p>
+<p><strong>Email:</strong> bartolomechudy@gmail.com</p>
+<div class="contact-actions">
+  <a class="btn" href="mailto:bartolomechudy@gmail.com">Enviar email</a>
+</div>
+</section>
+
+<footer>
+© 2026 — Portfolio de Bartłomiej Krzysztof Chudy
+</footer>
+
+</body>
+</html>
